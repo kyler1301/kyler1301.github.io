@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Life"
-    url: /life/
-  - title: "Language"
-    url: "/language/"
+  - title: "Today I Learnd"
+    url: /TIL/
+  - title: "Year"
+    url: "/year/"
   - title: "Tags"
     url: /tags/
   - title: "Categories"

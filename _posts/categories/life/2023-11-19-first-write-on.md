@@ -1,18 +1,16 @@
 ---
 title: "설레이는 Hello web"
 excerpt: "포스트 목록에서 보여지는 글 설명 내용 인듯 싶다"
-categories:
-  - life
+categories: [life]
 tags:
   - Life
   - Blog
-  - tip
-  - information
+  - 처음
 toc: true
 toc_sticky: true
 
 date: 2023-11-20
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-25
 ---
 
 <h2>처음 작성해보는 나의 페이지</h2>

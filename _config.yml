@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-KR"
@@ -20,7 +20,7 @@ title                    : "매일 배우는 개발자 Blog"
 title_separator          : "-"
 subtitle                 : "Since 2023.DEC" # site tagline that appears below site title in masthead
 name                     : "kyle"
-description              : "매일 배울꺼 많은 하루들"
+description              : "매일 매일 배우고 기록하고 공유하고 싶어 만든 blog"
 url                      : "https://kyler1301.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/kyler1301/kyler1301.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,28 +106,28 @@ analytics:
 author:
   name             : "Kyle"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "늘 매일 배우고 있습니다. 어려운 걸 이해하는 것을 좋아합니다."
+  bio              : "문제를 해결하는 건 즐거운 일입니다. 왜냐하면 과정속에서 배우고 성장 할 수 있기 때문이죠."
   location         : "Republic of Korea"
   email            : # "kyle1301@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:kyle1301@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   # url: "https://your-website.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   # url: "https://twitter.com/"
+    # - label: "Facebook"
+    #   icon: "fab fa-fw fa-facebook-square"
+    #   # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://kyler1301.github.io/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -286,10 +286,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false # true
       comments: # true
       share: true
       related: true
+      
 
   # _pages
   - scope:
