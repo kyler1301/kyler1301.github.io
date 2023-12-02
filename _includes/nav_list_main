@@ -26,14 +26,14 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "mac_tip" %}
-                        <li><a href="/categories/mac-tip" class="">맥 꿀팁 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/mac_tip" class="">맥 꿀팁 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "win_tip" %}
-                        <li><a href="/categories/win-tip" class="">윈도우 꿀팁 (with C++) ({{category[1].size}})</a></li>
+                        <li><a href="/categories/win_tip" class="">윈도우 꿀팁 (with C++) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
