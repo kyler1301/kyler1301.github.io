@@ -105,8 +105,8 @@ analytics:
 # Site Author
 author:
   name             : "Kyle"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "문제를 해결하는 건 즐거운 일입니다. 왜냐하면 과정속에서 배우고 성장 할 수 있기 때문이죠."
+  avatar           : "/assets/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "자동차 개발자입니다."
   location         : "Republic of Korea"
   email            : # "kyle1301@gmail.com"
   links:
